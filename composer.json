@@ -1,0 +1,47 @@
+{
+    "name": "webvelopers/crudgenerator",
+    "authors": [{
+        "name": "Webvelopers, Inc.",
+        "email": "webmaster@webvelopers.net"
+    }],
+    "type": "library",
+    "description": "CRUD Generator for Laravel.",
+    "keywords": [
+        "library",
+        "laravel",
+        "CRUD",
+        "Generator"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/console": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "phpunit/phpunit": "^8.4|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webvelopers\\CRUDGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webvelopers\\CRUDGenerator\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webvelopers\\CRUDGenerator\\CRUDGeneratorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
