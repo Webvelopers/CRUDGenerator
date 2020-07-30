@@ -38,6 +38,14 @@ php artisan vendor:publish --provider="Webvelopers\CRUDGenerator\CRUDGeneratorSe
 php artisan crud:generator Post --api
 ```
 
+-   Or generate all files with a one line of commands for example a new Post model with CRUD Controller.
+
+🔳 terminal/cmd
+
+```bash
+php artisan crud:generator Post
+```
+
 ## Enjoy It!
 
 ```
