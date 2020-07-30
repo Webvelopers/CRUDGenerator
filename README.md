@@ -1,8 +1,6 @@
 # CRUD Generator for Laravel
 
-<a href="https://packagist.org/packages/webvelopers/crudgenerator"><img src="https://poser.pugx.org/webvelopers/crudgenerator/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/webvelopers/crudgenerator"><img src="https://poser.pugx.org/webvelopers/crudgenerator/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/webvelopers/crudgenerator"><img src="https://poser.pugx.org/webvelopers/crudgenerator/license.svg" alt="License"></a>
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
 
 ## Introduction
 
