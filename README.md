@@ -14,7 +14,7 @@ CRUD Generator is open-sourced software licensed under the [MIT license](LICENSE
 
 On a laravel application you must be:
 
-1. Install this library with composer.
+-   Install this library with composer.
 
 🔳 terminal/cmd
 
@@ -22,7 +22,7 @@ On a laravel application you must be:
 composer require webvelopers/crudgenerator
 ```
 
-2. Publish the service provider.
+-   Publish the service provider.
 
 🔳 terminal/cmd
 
@@ -30,7 +30,7 @@ composer require webvelopers/crudgenerator
 php artisan vendor:publish --provider="Webvelopers\CRUDGenerator\CRUDGeneratorServiceProvider"
 ```
 
-3. Generate all files with a one line of commands for example a new Post model with API CRUD Controller.
+-   Generate all files with a one line of commands for example a new Post model with API CRUD Controller.
 
 🔳 terminal/cmd
 
