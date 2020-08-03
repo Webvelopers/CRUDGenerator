@@ -4,7 +4,7 @@
 
 ## Introduction
 
-CRUD Generator is a library for Laravel Applications, it implements a new command to create model, migration, request and controller files with CRUD operations and with option to generate a complete API Controller.
+CRUD Generator is a library for Laravel Applications, it implements a new command to create model, migration, factory, seeder, request and controller files with CRUD operations and option to generate a API Controller.
 
 ## License
 
@@ -22,7 +22,7 @@ On a laravel application you must be:
 composer require webvelopers/crudgenerator
 ```
 
-- Generate all files with a one line of commands for example a new Post model with API CRUD Controller.
+- Generate all files with a one line of commands for example: create a new Post model with API CRUD Controller.
 
 🔳 terminal/cmd
 
@@ -30,7 +30,7 @@ composer require webvelopers/crudgenerator
 php artisan crud:generator Post --api
 ```
 
-- Or generate all files with a one line of commands for example a new Post model with CRUD Controller.
+- Or generate all files with a one line of commands for example: create a new Post model with CRUD Controller.
 
 🔳 terminal/cmd
 
